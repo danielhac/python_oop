@@ -11,6 +11,7 @@ class A:
 
 
 # Subclass of A
+# NOTE: there is same name method in this subclass, so this subclass' method is used
 class B(A):
     def func_common(self):
         print("in func_common of B")
