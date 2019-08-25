@@ -8,7 +8,7 @@ class Plus:
     def __init__(self, a):
         self.a = a
     
-    # Operator overloading so that the operator can use the '+' symbol
+    # Operator overloading so that the class can use the '+' symbol
     def __add__(self, second):
         return self.a + second.a
 
