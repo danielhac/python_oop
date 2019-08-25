@@ -33,3 +33,4 @@ c1 = Mac()
 c1.type()
 
 # c2 = Windows()      # Will fail due to non-existing matching method with abstract method in superclass
+# c3 = Computer()     # Will fail due do to abstract class cannot be instantiated
